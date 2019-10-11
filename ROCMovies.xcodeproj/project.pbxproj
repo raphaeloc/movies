@@ -3,16 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172459C32350EB0500DEDCCA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172459C22350EB0500DEDCCA /* Result.swift */; };
+		172459C52350EB2300DEDCCA /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172459C42350EB2300DEDCCA /* Movies.swift */; };
+		172459C82350EBF500DEDCCA /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172459C72350EBF500DEDCCA /* ApiProvider.swift */; };
+		172459CB2350EE5000DEDCCA /* ROCUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172459CA2350EE5000DEDCCA /* ROCUtils.swift */; };
+		172459CD2350F05600DEDCCA /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172459CC2350F05600DEDCCA /* String+Utils.swift */; };
+		172459D02350F08800DEDCCA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172459CF2350F08800DEDCCA /* Constants.swift */; };
+		172459D22350F0A500DEDCCA /* Constants+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172459D12350F0A500DEDCCA /* Constants+Utils.swift */; };
+		172459D42351089E00DEDCCA /* UIImagemView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172459D32351089D00DEDCCA /* UIImagemView+Utils.swift */; };
+		172459DA23510AA700DEDCCA /* ROCMoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172459D823510AA700DEDCCA /* ROCMoviesTableViewCell.swift */; };
+		172459DB23510AA700DEDCCA /* ROCMoviesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172459D923510AA700DEDCCA /* ROCMoviesTableViewCell.xib */; };
+		172459DF23510F2800DEDCCA /* Home+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172459DE23510F2800DEDCCA /* Home+TableView.swift */; };
+		172459E123510F3400DEDCCA /* Home+SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172459E023510F3400DEDCCA /* Home+SearchBar.swift */; };
 		1788574C2350E521003BEC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788574B2350E521003BEC2B /* AppDelegate.swift */; };
-		1788574E2350E521003BEC2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788574D2350E521003BEC2B /* ViewController.swift */; };
+		1788574E2350E521003BEC2B /* HomeMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788574D2350E521003BEC2B /* HomeMoviesViewController.swift */; };
 		178857512350E521003BEC2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1788574F2350E521003BEC2B /* Main.storyboard */; };
 		178857532350E526003BEC2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178857522350E526003BEC2B /* Assets.xcassets */; };
 		178857562350E526003BEC2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178857542350E526003BEC2B /* LaunchScreen.storyboard */; };
 		178857612350E526003BEC2B /* ROCMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178857602350E526003BEC2B /* ROCMoviesTests.swift */; };
+		43011708E1B038915EA403EC /* Pods_ROCMoviesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51ACC0792AD355057A835EDA /* Pods_ROCMoviesTests.framework */; };
+		72DD7D4A2C03CA5096B2AB10 /* Pods_ROCMovies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DBDB47C9511916008ED1EF /* Pods_ROCMovies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +40,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16C7652EEE7D83A5A82E353A /* Pods-ROCMovies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROCMovies.debug.xcconfig"; path = "Target Support Files/Pods-ROCMovies/Pods-ROCMovies.debug.xcconfig"; sourceTree = "<group>"; };
+		172459C22350EB0500DEDCCA /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		172459C42350EB2300DEDCCA /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		172459C72350EBF500DEDCCA /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
+		172459CA2350EE5000DEDCCA /* ROCUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROCUtils.swift; sourceTree = "<group>"; };
+		172459CC2350F05600DEDCCA /* String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		172459CF2350F08800DEDCCA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		172459D12350F0A500DEDCCA /* Constants+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants+Utils.swift"; sourceTree = "<group>"; };
+		172459D32351089D00DEDCCA /* UIImagemView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagemView+Utils.swift"; sourceTree = "<group>"; };
+		172459D823510AA700DEDCCA /* ROCMoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROCMoviesTableViewCell.swift; sourceTree = "<group>"; };
+		172459D923510AA700DEDCCA /* ROCMoviesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ROCMoviesTableViewCell.xib; sourceTree = "<group>"; };
+		172459DE23510F2800DEDCCA /* Home+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+TableView.swift"; sourceTree = "<group>"; };
+		172459E023510F3400DEDCCA /* Home+SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+SearchBar.swift"; sourceTree = "<group>"; };
 		178857482350E521003BEC2B /* ROCMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROCMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1788574B2350E521003BEC2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1788574D2350E521003BEC2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1788574D2350E521003BEC2B /* HomeMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMoviesViewController.swift; sourceTree = "<group>"; };
 		178857502350E521003BEC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		178857522350E526003BEC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		178857552350E526003BEC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +63,11 @@
 		1788575C2350E526003BEC2B /* ROCMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROCMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		178857602350E526003BEC2B /* ROCMoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROCMoviesTests.swift; sourceTree = "<group>"; };
 		178857622350E526003BEC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51ACC0792AD355057A835EDA /* Pods_ROCMoviesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ROCMoviesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62EDFF816CCF3FAB89EF5CC1 /* Pods-ROCMovies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROCMovies.release.xcconfig"; path = "Target Support Files/Pods-ROCMovies/Pods-ROCMovies.release.xcconfig"; sourceTree = "<group>"; };
+		68DBDB47C9511916008ED1EF /* Pods_ROCMovies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ROCMovies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78585A839A817D5913E2EA8E /* Pods-ROCMoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROCMoviesTests.release.xcconfig"; path = "Target Support Files/Pods-ROCMoviesTests/Pods-ROCMoviesTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5A04DE9D3420BE9B664752A /* Pods-ROCMoviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROCMoviesTests.debug.xcconfig"; path = "Target Support Files/Pods-ROCMoviesTests/Pods-ROCMoviesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72DD7D4A2C03CA5096B2AB10 /* Pods_ROCMovies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +83,102 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43011708E1B038915EA403EC /* Pods_ROCMoviesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		172459C12350EADF00DEDCCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				172459C22350EB0500DEDCCA /* Result.swift */,
+				172459C42350EB2300DEDCCA /* Movies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		172459C62350EBE200DEDCCA /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				172459C72350EBF500DEDCCA /* ApiProvider.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		172459C92350EE4000DEDCCA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				172459CE2350F07800DEDCCA /* Constants */,
+				172459CA2350EE5000DEDCCA /* ROCUtils.swift */,
+				172459CC2350F05600DEDCCA /* String+Utils.swift */,
+				172459D32351089D00DEDCCA /* UIImagemView+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		172459CE2350F07800DEDCCA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				172459CF2350F08800DEDCCA /* Constants.swift */,
+				172459D12350F0A500DEDCCA /* Constants+Utils.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		172459D523510A6C00DEDCCA /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				172459D723510A7F00DEDCCA /* Xib */,
+				172459D623510A7000DEDCCA /* ViewController */,
+			);
+			path = Nib;
+			sourceTree = "<group>";
+		};
+		172459D623510A7000DEDCCA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1788574F2350E521003BEC2B /* Main.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		172459D723510A7F00DEDCCA /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				172459D823510AA700DEDCCA /* ROCMoviesTableViewCell.swift */,
+				172459D923510AA700DEDCCA /* ROCMoviesTableViewCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		172459DC23510EF300DEDCCA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				172459DD23510F0A00DEDCCA /* Home */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		172459DD23510F0A00DEDCCA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1788574D2350E521003BEC2B /* HomeMoviesViewController.swift */,
+				172459DE23510F2800DEDCCA /* Home+TableView.swift */,
+				172459E023510F3400DEDCCA /* Home+SearchBar.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		1788573F2350E521003BEC2B = {
 			isa = PBXGroup;
 			children = (
 				1788574A2350E521003BEC2B /* ROCMovies */,
 				1788575F2350E526003BEC2B /* ROCMoviesTests */,
 				178857492350E521003BEC2B /* Products */,
+				3E5C735D5DCF674F6A565D2E /* Pods */,
+				21A3A4E79C925A4047B58169 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +194,12 @@
 		1788574A2350E521003BEC2B /* ROCMovies */ = {
 			isa = PBXGroup;
 			children = (
+				172459DC23510EF300DEDCCA /* ViewController */,
+				172459D523510A6C00DEDCCA /* Nib */,
+				172459C92350EE4000DEDCCA /* Utils */,
+				172459C62350EBE200DEDCCA /* Api */,
+				172459C12350EADF00DEDCCA /* Model */,
 				1788574B2350E521003BEC2B /* AppDelegate.swift */,
-				1788574D2350E521003BEC2B /* ViewController.swift */,
-				1788574F2350E521003BEC2B /* Main.storyboard */,
 				178857522350E526003BEC2B /* Assets.xcassets */,
 				178857542350E526003BEC2B /* LaunchScreen.storyboard */,
 				178857572350E526003BEC2B /* Info.plist */,
@@ -96,6 +216,26 @@
 			path = ROCMoviesTests;
 			sourceTree = "<group>";
 		};
+		21A3A4E79C925A4047B58169 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68DBDB47C9511916008ED1EF /* Pods_ROCMovies.framework */,
+				51ACC0792AD355057A835EDA /* Pods_ROCMoviesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E5C735D5DCF674F6A565D2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16C7652EEE7D83A5A82E353A /* Pods-ROCMovies.debug.xcconfig */,
+				62EDFF816CCF3FAB89EF5CC1 /* Pods-ROCMovies.release.xcconfig */,
+				E5A04DE9D3420BE9B664752A /* Pods-ROCMoviesTests.debug.xcconfig */,
+				78585A839A817D5913E2EA8E /* Pods-ROCMoviesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 178857652350E526003BEC2B /* Build configuration list for PBXNativeTarget "ROCMovies" */;
 			buildPhases = (
+				628C290D2B4EA5F91DF0D119 /* [CP] Check Pods Manifest.lock */,
 				178857442350E521003BEC2B /* Sources */,
 				178857452350E521003BEC2B /* Frameworks */,
 				178857462350E521003BEC2B /* Resources */,
+				48009F4535E04D576C6717AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +262,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 178857682350E526003BEC2B /* Build configuration list for PBXNativeTarget "ROCMoviesTests" */;
 			buildPhases = (
+				CE1B394A214C2ECBB101284C /* [CP] Check Pods Manifest.lock */,
 				178857582350E526003BEC2B /* Sources */,
 				178857592350E526003BEC2B /* Frameworks */,
 				1788575A2350E526003BEC2B /* Resources */,
@@ -140,6 +283,7 @@
 		178857402350E521003BEC2B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ROC;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Raphael Oliveira Chagas";
@@ -178,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				178857562350E526003BEC2B /* LaunchScreen.storyboard in Resources */,
+				172459DB23510AA700DEDCCA /* ROCMoviesTableViewCell.xib in Resources */,
 				178857532350E526003BEC2B /* Assets.xcassets in Resources */,
 				178857512350E521003BEC2B /* Main.storyboard in Resources */,
 			);
@@ -192,13 +337,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48009F4535E04D576C6717AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ROCMovies/Pods-ROCMovies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ROCMovies/Pods-ROCMovies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ROCMovies/Pods-ROCMovies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		628C290D2B4EA5F91DF0D119 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ROCMovies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1B394A214C2ECBB101284C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ROCMoviesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		178857442350E521003BEC2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1788574E2350E521003BEC2B /* ViewController.swift in Sources */,
+				172459CB2350EE5000DEDCCA /* ROCUtils.swift in Sources */,
+				172459C32350EB0500DEDCCA /* Result.swift in Sources */,
+				1788574E2350E521003BEC2B /* HomeMoviesViewController.swift in Sources */,
+				172459C82350EBF500DEDCCA /* ApiProvider.swift in Sources */,
+				172459D42351089E00DEDCCA /* UIImagemView+Utils.swift in Sources */,
+				172459D22350F0A500DEDCCA /* Constants+Utils.swift in Sources */,
+				172459DF23510F2800DEDCCA /* Home+TableView.swift in Sources */,
+				172459C52350EB2300DEDCCA /* Movies.swift in Sources */,
+				172459CD2350F05600DEDCCA /* String+Utils.swift in Sources */,
+				172459E123510F3400DEDCCA /* Home+SearchBar.swift in Sources */,
+				172459DA23510AA700DEDCCA /* ROCMoviesTableViewCell.swift in Sources */,
 				1788574C2350E521003BEC2B /* AppDelegate.swift in Sources */,
+				172459D02350F08800DEDCCA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +578,7 @@
 		};
 		178857662350E526003BEC2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C7652EEE7D83A5A82E353A /* Pods-ROCMovies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +597,7 @@
 		};
 		178857672350E526003BEC2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EDFF816CCF3FAB89EF5CC1 /* Pods-ROCMovies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +616,7 @@
 		};
 		178857692350E526003BEC2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A04DE9D3420BE9B664752A /* Pods-ROCMoviesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +638,7 @@
 		};
 		1788576A2350E526003BEC2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78585A839A817D5913E2EA8E /* Pods-ROCMoviesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

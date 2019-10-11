@@ -1,0 +1,6 @@
+framework module Pods_ROCMovies {
+  umbrella header "Pods-ROCMovies-umbrella.h"
+
+  export *
+  module * { export * }
+}
